@@ -1,0 +1,59 @@
+@import url(../../../assets/styles/constants.css);
+footer {
+    padding: 4rem 2rem 0rem 2rem;
+    background-color: var(--secondary);
+    width: 100vw;
+    /* position: sticky; */
+    bottom: 0px;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: var(--primary) !important;
+}
+
+.nav-link .active {
+    color: var(--primary) !important;
+}
+
+.contact-us {
+    margin-left: 5rem;
+}
+
+#header {
+    background-color: #202020 !important;
+    position: fixed;
+    top: 0px;
+    width: 100vw !important;
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: center !important;
+}
+
+.navbar-brand {
+    margin-right: 6rem;
+}
+
+.navbar-container {
+    /* width: 100vw; */
+    display: flex !important;
+    justify-content: space-between !important;
+    /* padding: 0rem 5rem 0rem 5rem; */
+}
+
+.navbar-expand-lg {
+    display: flex;
+    justify-content: center !important;
+}
+
+.copyright {
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 12%);
+}
+
+.footer-header {
+    font-weight: 700;
+}

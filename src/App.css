@@ -1,0 +1,60 @@
+@import url(./assets/styles/constants.css);
+.show-border {
+    border: 1px solid red;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+/*
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+body {
+    color: #333;
+    background: #fff;
+    /* font: 16px/1.6 "Muli", sans-serif; */
+    overflow-X: hidden;
+    margin: 0px !important;
+    padding: 0px !important;
+    /* min-width: 320px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400; */
+}
+
+#root {
+    margin: 0px !important;
+}
+
+section {
+    padding: 4rem 5rem 4rem 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bcg-primary {
+    background: var(--primary)/* Primary colour from constants.css */
+    ;
+    color: var(--white);
+}
+
+.txt-primary {
+    color: var(--primary);
+}
+
+.view-portfolio-btn {
+    background-color: var(--white);
+    color: var(--secondary);
+}
+
+.hero-btn {
+    padding: 1rem 3rem 1rem 3rem;
+}

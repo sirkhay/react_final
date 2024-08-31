@@ -1,0 +1,51 @@
+@import url(../../../assets/styles/constants.css);
+.hero {
+    /* background-color: url(../assets/images/bg.png); background-repeat: no-repeat; background-size: 100%; min-height: 100vh; */
+    background-image: url(../../../assets/images/bg.png);
+    background-color: #202020;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    /* -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover; */
+    background-repeat: no-repeat;
+    height: 861px;
+    /* width: 100vw !important; */
+    display: flex;
+    /* margin-top: 0px; */
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0rem 15rem 0rem 15rem;
+    position: relative;
+    z-index: -1;
+}
+
+.welcome {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.welcome span {
+    color: var(--primary);
+}
+
+.creatingTheFuture {
+    font-family: Poppins, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 89.95px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.creatingTheFuture span {
+    border-bottom: 4px solid var(--primary);
+}
